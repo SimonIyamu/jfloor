@@ -8,7 +8,7 @@ const shareTechMono = Share_Tech_Mono({
 
 export default function Home() {
   return (
-    <main className={`${shareTechMono.className} flex min-h-screen flex-col items-center justify-center bg-white text-black px-6`}>
+    <main className={`${shareTechMono.className} flex h-screen flex-col items-center justify-center bg-white text-black px-6 overflow-hidden`}>
       {/* Logo */}
       <h1 className="text-base tracking-tight mb-16">
         J FLOOR
@@ -32,7 +32,7 @@ export default function Home() {
 
 
       {/* Footer */}
-      <footer className="absolute bottom-6 text-base text-gray-500 text-center">
+      <footer className="absolute bottom-6 left-0 right-0 text-base text-gray-500 text-center">
         <div>info@thejfloor.com</div>
         <div>© {new Date().getFullYear()} J FLOOR</div>
       </footer>
