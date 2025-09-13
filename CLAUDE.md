@@ -9,8 +9,8 @@ Free
 Hacker Manifesto.
 
 The landing page should be super minimal and hacker-like. be creative
-# Tone of voice
 
+# Tone of voice
 Very direct. bold. use short sentences. less is more.
 
 Hacker Manifesto

@@ -32,8 +32,9 @@ export default function Home() {
 
 
       {/* Footer */}
-      <footer className="absolute bottom-6 text-base text-gray-500">
-        © {new Date().getFullYear()} J FLOOR
+      <footer className="absolute bottom-6 text-base text-gray-500 text-center">
+        <div>info@thejfloor.com</div>
+        <div>© {new Date().getFullYear()} J FLOOR</div>
       </footer>
     </main>
   );
