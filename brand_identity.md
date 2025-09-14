@@ -53,3 +53,6 @@ Share Tech Mono', Monospace, Courier;
 Very direct. bold. use short sentences. less is more.
 
 Hacker Manifesto
+
+# Logo
+@src/app/logo.png
