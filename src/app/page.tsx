@@ -9,6 +9,18 @@ const shareTechMono = Share_Tech_Mono({
 export default function Home() {
   return (
     <main className={`${shareTechMono.className} flex h-screen flex-col items-center justify-center bg-white text-black px-6 overflow-hidden`}>
+      {/* Apply CTA - Top Right */}
+      <div className="absolute top-6 right-6">
+        <a
+          href="https://heavenly-legend-319.notion.site/271641eadaaa805ba57bce75008b646c?pvs=105"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-4 py-2 border border-black text-sm hover:bg-black hover:text-white transition-colors"
+        >
+          APPLY
+        </a>
+      </div>
+
       {/* Logo */}
       <h1 className="text-base tracking-tight mb-16">
         J FLOOR
@@ -33,12 +45,12 @@ export default function Home() {
       {/* CTA */}
       <div className="mt-12">
         <a
-          href="https://heavenly-legend-319.notion.site/271641eadaaa805ba57bce75008b646c?pvs=105"
+          href="https://heavenly-legend-319.notion.site/28f641eadaaa80e589dfed4ffa1fe1a2?pvs=105"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-6 py-2 border border-black text-base hover:bg-black hover:text-white transition-colors"
+          className="inline-block px-6 py-2 bg-black text-white text-base hover:bg-gray-800 transition-colors"
         >
-          JOIN US
+          LAUNCH EVENT
         </a>
       </div>
 
